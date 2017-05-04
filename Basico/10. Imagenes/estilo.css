@@ -1,0 +1,22 @@
+/*
+- por defecto es en linea
+- el navegador hace caso  primero a css
+- la imagen debe llevar un valor proporcional
+- con css puedes usar unidades relativas a las imagenes
+- es muy importante utilizzar porcentajes en las imagenes que medidas estaticas
+*/
+div	{
+	/*background: #ccc;*/
+	width: 100%;  /*800px*/
+}
+
+img {
+	height:  auto;  /*auto*/
+	width:300px; /*100%*/
+	/*margin: auto;*/
+	display: block;
+	border-radius: 5px; /*50%*/
+	box-shadow: 5px 5px 5px #ccc;  /*izq a der, arriba hacia abajo, tamaño, color*/
+	padding: 10px;
+	border: 1px solid #ccc;
+}

@@ -1,0 +1,78 @@
+/*un sitio web se basa entres partes
+header encabezado
+main sidebar - cuerpo
+footer - pie de pagina
+tamaño por defecto 16px
+
+Si no se colorea un elemento en el inspector esta mal o su estructura no es la adecuada
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #e6e6e6;
+}
+
+header , .main ,footer{
+	/*background: #ffffff;*/
+	width: 80%; /**1000px para estatico*/
+	margin: 20px auto;
+	min-width: 1000px;
+}
+
+
+header nav {
+	background: #528fd5;
+	overflow: hidden;  /*Soluciona problema de menu/ limipa float left y oculta elementos que se pasan del espacio de un contenedor*/
+
+}
+
+header nav ul {
+	list-style: none;
+}
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display: block; /*si no se pone display block el padding no funciona hacia arriba y abajo*/
+	color:#fff;
+	text-decoration: none;
+
+}
+
+header nav ul li a:hover {
+	background: #75ACEC; ;
+}
+
+.main .articles {
+	width:68.5%;  /*70%*/
+	margin-right: 1.5%;
+	float: left;
+}
+
+.main  .articles article {
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+
+}
+aside {
+	width :30%;
+	background: #ff8000;
+	float: left;
+	padding: 20px;
+	box-sizing:border-box;
+}
+
+footer {
+	background: #000;
+	color: #fff;
+	clear: both; /*float:left*/
+	padding: 10px 0px;
+	text-align: center;
+
+}

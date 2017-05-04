@@ -1,0 +1,46 @@
+/*
+Formas de llamar colores
+Palabras clave
+rgb (red. green, blue)
+rgb hexadecimal
+rgb numerico
+rgb porcentual
+colores del sistema
+
+
+
+*/
+
+/*Palabras clave
+aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, yellow
+
+se pueden usar los prefijos dark y light
+*/
+h1 {
+	color:aqua;
+
+}
+
+/*rgb Decimal*/
+
+h2 {
+	color: rgb(243, 73, 118);
+}
+
+/*hexadecimal*/
+h3 {
+	color: #7B59DA; /*forma mas utilizada */
+}
+
+/*rgb porcentual*/
+h4 {
+	color:rgb(134%, 86%, 93%);
+
+}
+
+
+/*RGBA*/
+/* A VALOR ALFA nos permite dar transparencia a nuestro color   se maneja del 0 al 1  opacidad*/
+h5 {
+	color:rgba(49,163,239,.5);
+}

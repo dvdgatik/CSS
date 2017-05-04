@@ -1,0 +1,66 @@
+/*Indica a que elemento se le cambiara el aspecto*/
+
+/*SELECTOR UNIVERSAL: CAMBIA EL ASPECTO DE TODOS LOS ELEMENTOS */
+*{
+	margin: 0; /*margen*/
+	padding: 0; /*relleno*/
+}
+
+/*SELECTORES DE ETIQUETA: hace referencia a un elemento especifico*/
+
+h2 {
+	color: blue;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: red;
+}
+
+h1{
+	font-size:50px;
+}
+h2{
+	font-size: 40px;
+}
+
+p {
+	color: blue;
+}
+
+
+/*SELECTORES DESCENDENTES: Apuntar hacia algun elemento dentro de otro elemento*/
+p a{
+	color:orange;
+	font-size: 50px;
+}
+
+
+
+/*SELECTORES DE CLASE: modifica las propiedades mediante un nombre de clase se utiliza un punto para llamarla (se puede repetir)*/
+
+p .yellow {
+	color: yellow;
+}
+
+/*SELECTORES por ID: modifica las propiedades mediante id(identificador unico) se usa un # para llamarla (no se debe repetir)*/
+
+#green {
+	color: green;
+}
+
+/*OTROS SELECTORES POR ATRIBUTO*/
+
+a[href="http://www.facebook.com/"] {
+	color: black;
+	font-size: 60px;
+
+}
+
+/*
+background: modifica el fondo;
+color: modifica color de fuente;
+margin: modifica el  espacio de margen;
+padding: modifica el espacio de relleno(margen interno);
+font-size: modifica el tamaño de la fuente;
+*/

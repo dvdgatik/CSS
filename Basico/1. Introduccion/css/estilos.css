@@ -1,0 +1,18 @@
+/*
+CSS se compone de reglas y cada regla esta compuesta de un selector propiedades y valores
+regla css conjunto de propiedades para dar estilo a un elemento de html
+selector: nos indica a que elemento le daremos estilo.
+
+
+Selector {
+     propiedad:valor;
+}
+
+
+*/
+
+
+body {
+	background:black;
+	color:white;
+}

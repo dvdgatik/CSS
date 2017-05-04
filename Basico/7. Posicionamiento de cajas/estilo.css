@@ -1,0 +1,56 @@
+div	
+{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	color: white;
+	font-size: 30px;
+	float: right;
+
+}
+
+.caja {
+	position: static;
+	/*4 Propiedades que permiten desplazar cajas*/
+	top: 100px; /*arriba a abajo*/
+	bottom: 0px;  /*abajo a arriba**/
+	right: 0px;       /*dercha a izq*/          
+	left: 50px;  /*izq a derecha *7*/
+
+	
+
+}
+
+.cajapadre
+{
+	width: 500px;
+	height: 500px;
+	background: #000;
+	position: relative;
+
+}
+
+img {
+	float: left;
+	padding: 10px
+}
+
+.clear {
+	clear: both; /*rompe la estructura left*/
+
+}
+
+/*por defecto ua caja se pone debajo de otra por ser tipo bloque
+
+posisionamiento por defecto static
+
+
+
+
+static: no permite desplazar quedan bloqueadas ante el navegador ls 4 propiedades;
+relative : desplazar una caja desde su posicion original, los elementos no se recorren;
+absolute : desplazar una caja desde su posicion original, los elementos  se recorren;
+fixed: desplaza desde la venttana y se queda estatico ante lla barra de desplazamiento;
+float: permite desplazar los elementos hacia la derecha o izquierda uno del lado de otro;
+
+*/

@@ -1,0 +1,22 @@
+/*se utiliza .. para regresar una carpeta
+fondo por defecto repetido
+repat-x
+repeat-y
+repeat
+no-repeat
+*/
+body {
+	background: url(../hermoso-clima-162.jpg);
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+	background-repeat: no-repeat;
+	background-attachment: fixed; /*scroll*/
+	background-position:50% 100%;  /*derecha abajo  center*/
+}
+
+
+div {
+	background: url(../hermoso-clima-162.jpg)
+}

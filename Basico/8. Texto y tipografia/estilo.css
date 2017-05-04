@@ -1,0 +1,30 @@
+/*Tipografia: tipo de fuente
+
+-Las comillas en el font family solo se utilizan si hay un espacio en el nombre de la tipografia
+-Se pueden agregar mas fuentes en dado caso que el navegadr no reconozca una
+- Ver Video Como agregar cualquier tipografia a tu sitio web
+- Todo lo que sea tipo bloque se puede centrar inculo imagenes*/
+h1 {  /*lo puedes centrar por ser tipo bloque si fuera en linea no se podria centrar*/
+font-weight: normal; 
+text-align: center;
+background: #ccc;
+
+}
+
+
+p {
+	font-family:  Arial, Helvetica, Sans-serif, "Myriad Pro";
+	font-size: 20px;
+	font-weight:bold;  /*Se pueden utilizar numeros  (100,200,300...)*/
+	text-align:justify;  /*left, right, center, justify*/
+	line-height: 40px;  /*interlineado*/
+	text-decoration:none; ;  /*none, underline, overline, line through*/
+	text-transform: lowercase;  /*Capitalize, UpperCase, LowerCase*/
+	letter-spacing: normal;  /*Espaciado entre letra:  medidas relativas, normal etc...*/
+	word-spacing: normal;  /*Espaciado entre palabra*/
+	text-shadow:5px 5px 5px #000 ;   /*hor izq a dercha, verticalmente, tamaño, color*/
+
+
+}
+
+

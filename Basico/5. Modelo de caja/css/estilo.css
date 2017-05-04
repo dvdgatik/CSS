@@ -1,0 +1,52 @@
+/*Es importante en el diseño de un sitio web basado en cajas (OBJETOS QUE SIEMPRE SERAN RECTANGULARES) en el cual podemos ocultarlas y desplazarlas
+esta compuesta de:
+1 contenido
+2 padding relleno (margen interno)
+3 border borde orilla
+4 fondo o imagen
+5 margin (margen externo)
+
+
+
+
+
+
+en el modelo de caja existen dos tipos de elemento
+
+1. en linea: inline barca el ancho de su propio elemento
+      -no les podemos dar un ancho ni un alto convertir a enlinea bloque
+2. bloque: block (abarca el ancho de todo el documento)
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1, a, div, img, p {
+	background: orange; 
+
+}
+
+div {
+	width:500px;
+	padding: 0px;
+	border: solid 5px blue;
+	margin: 0px 0px 10px 0px;
+	display: inline-block;
+
+}
+
+
+
+/*usualmente no se utiliza la propiedad height
+
+
+1 medida  = hacia los cuatro lados
+2 medidas = 1.arriba y abajo  2. izq y derecha
+3 o 4 medidas =  1. arriba 2. derecha 3.abajo 4. izquierda
+
+
+
+
+solid dotted dashed
+*/

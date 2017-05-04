@@ -1,0 +1,11 @@
+/*Lista por defecto disc*/
+
+ul > ul  {   /*> significa despues de   izq padre derecha hijo*/  
+	list-style-type: circle;   /*disc circle square*/
+	list-style-position:outside; ; /*inside valor defecto outside*/
+}
+
+/*lista por defecto decimal*/
+ol {
+	list-style-type: lower-latin;  /*decimal leading-cero, upper-latin, lower-latin, lower-alpha*/
+}

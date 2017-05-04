@@ -1,0 +1,62 @@
+a {
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+	margin: 10px 20px 10px 0px;
+	padding: 10px 20px;
+}
+
+a:link { /*enlace*/
+	color: green
+
+}
+a:hover {  /*flotar  se utiliza tambien para otros elementos*/
+	background: red;
+	color: white;
+}
+a:active {
+	background: black;
+	color: red;
+
+}
+
+a:visited{
+	color: blue;
+}
+
+/*
+aplicar estiloss a los enlaces dependiendo de estado en qeu esten (evento).
+hover
+visited
+no visitados  = link
+click = active
+*/
+
+.boton {
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px 20px 10px 0px;
+	background: #3BA7E1;
+	content: #fff;
+	display: inline-block;
+	box-shadow: 0px 5px 0px #1D64A6;
+}
+
+.boton:link{
+	color: #fff;
+
+}
+
+.boton:active{
+	color: #fff;
+	background: #3BA7E1;
+}
+
+.boton:hover{
+	box-shadow: 0px 2px 0px #1D64A6;
+	background: #3BA7E1;
+}
+.boton:active{
+	box-shadow: none;
+	
+}
